@@ -2,8 +2,8 @@
 import { useState } from 'react';
 import './App.css'
 //import ReactMarkdown from 'react-markdown';
-import {marked} from "https://esm.sh/marked";
-//import marked from "marked";
+// import {marked} from "https://esm.sh/marked";
+import {marked} from "marked";
 
 //import gfm from 'remark-gfm';
 //import { App } from './App.1';
@@ -12,7 +12,7 @@ marked.setOptions({
   breaks: true,
   });
 
-export const defaultMarkdown = `
+ const defaultMarkdown = `
 # Welcome to my React Markdown Previewer!
 ## This is a sub-heading...
 ### And here's some other cool stuff:
